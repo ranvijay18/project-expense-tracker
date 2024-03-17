@@ -1,0 +1,94 @@
+#details{
+    border-collapse:collapse;
+    width:100%;
+    text-align: center;
+    table-layout: fixed; 
+}
+
+td{
+    padding: 10px;
+}
+
+#edit{
+    padding: 6px 10px;
+    border: 2px solid rgb(38, 245, 38);
+    color:rgb(38, 245, 38);
+    outline:none;
+    background-color: rgba(240, 248, 255, 0);
+}
+
+#edit:hover{
+    background-color: rgb(38, 245, 38);
+    color: white;
+}
+
+#delete{
+    margin-left: 5px;
+    padding: 6px 10px;
+    border: 2px solid rgb(253, 32, 32);
+    color:rgb(255, 32, 32);
+    outline:none;
+    background-color: rgba(240, 248, 255, 0);
+}
+
+#delete:hover{
+    background-color:  rgb(253, 32, 32);
+    color: white;
+}
+
+
+.bottom{
+    display: flex;
+  justify-content: space-between; 
+}
+
+.pagination{
+    flex: 1 0 auto; 
+  text-align: center;
+  margin-left: 250px;
+  margin-top: 25px;
+}
+
+.prev{
+    padding: 10px 8px;
+    border: none;
+    outline: none;
+}
+
+.curr{
+  padding: 15px 8px;
+  border: none;
+    outline: none;
+    margin-left: 25px;
+    background-color: rgb(253, 253, 151);
+}
+
+.next{
+    padding: 10px 8px;
+    border: none;
+    outline: none;
+    margin-left: 25px;
+}
+
+.select-item{
+    flex: 0 0 auto;
+    margin-right: 100px;
+    margin-top: 25px;
+}
+
+select{
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    height: 30px;
+    padding-right: 50px;
+}
+
+.select-page{
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    height: 30px;
+    padding-right: 20px;
+    text-align: center;
+}

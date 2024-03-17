@@ -1,0 +1,61 @@
+h1{
+    text-align: center;
+}
+
+body{
+    background-color: darkslateblue;
+    color: white;
+}
+
+input{
+    margin-left: 5px;
+    border-radius:20px;
+    outline: none;
+    height: 25px;
+    border: 2px solid white;
+}
+
+label{
+    margin-left:5px;
+}
+
+.input-details{
+    background-color:rgba(137, 43, 226, 0.233);
+    padding:10px;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin: 0px 200px;
+}
+
+#add-details{
+    margin-left: 25px;
+    border: none;
+    border-radius: 20px;
+    padding: 8px 25px;
+    background-color: rgb(29, 255, 29);
+    color:white;
+}
+
+#leaderboard{
+    background-color: rgb(47, 255, 75);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    font-size: 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-left: 200px;
+}
+
+#report{
+    background-color: rgb(255, 47, 47);
+    color: white;
+    padding: 10px 40px;
+    border: none;
+    border-radius: 20px;
+    font-size: 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-left: 715px;
+}
+
